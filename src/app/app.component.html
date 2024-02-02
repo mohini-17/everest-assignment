@@ -8,7 +8,11 @@
   <body>
     <!-- Navigation -->
     <div class="container-fluid">
-      <img src="../assets/topbar-desktop.png" alt="topbar" />
+      <img
+        src="../assets/topbar-desktop.png"
+        class="img-fluid img-responsive w-100"
+        alt="topbar"
+      />
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <img src="../assets/logo.svg" alt="upbox" />
         <button
@@ -69,7 +73,10 @@
                   <div class="carousel-item active">
                     <div class="row align-items-center">
                       <div class="col-md py-2">
-                        <h1>Look good without leaving your house.</h1>
+                        <h1 class="font-400">
+                          Look good without<br />
+                          leaving your house.
+                        </h1>
                         <p>
                           Upbox is the easiest way to look your best without
                           having to hunt for the perfect makeup combination. Our
@@ -88,12 +95,12 @@
                       </div>
                       <div class="col-md py-2">
                         <img
-                          class="d-block img-fluid"
+                          class="d-block img-fluid img-responsive"
                           src="../assets/box.png"
                           alt="First slide"
                         />
                         <img
-                          class="d-block img-fluid"
+                          class="d-block img-fluid img-responsive"
                           src="../assets/box-art.png"
                           alt="First slide"
                           style="
@@ -117,20 +124,21 @@
       <div class="row">
         <div class="container">
           <div class="row">
-            <div class="col-sm">
+            <div class="col-sm text-right">
               <img
                 src="../assets/work1.png"
-                style="width: 511px"
+                class="img-responsive w-75"
                 alt="work 2"
               />
             </div>
             <div class="col-sm">
-              <h2 class="align-items-center">How it Works?</h2>
+              <h2 class="align-items-center"><u>How it Works?</u></h2>
               <br />
-              <h1>Setup your profile & preferences</h1>
+              <h1 class="font-400">Setup your profile & preferences</h1>
               <p>
-                Once you create an account, you can start to tell us your likes
-                and dislikes so we can tailor the experience just for you.
+                Once you create an account, you can start to tell us your
+                likes and dislikes so we can tailor the experience just
+                for you.
               </p>
             </div>
           </div>
@@ -143,27 +151,25 @@
             <div class="col-sm"></div>
 
             <div class="col-sm">
+            
+            </div>
+
+            <div class="col-sm">
               <img
-                src="../assets/work2.png"
-                style="width: 1112px"
-                alt="work2"
-              />
-              <img
-                src="../assets/work2-art.png"
-                style="
-                  width: 200px;
-                  position: absolute;
-                  right: 16px;
-                  top: 14rem;
-                  left: 45rem;
-                "
-                alt="work2"
-              />
-              <h1>Review your custom box</h1>
+              src="../assets/work2.png"
+              class="img-responsive"
+              alt="work2"
+            />
+            <img
+              src="../assets/work2-art.png"
+              class="img-responsive work2"
+              alt="work2"
+            />
+              <h1 class="font-400">Review your <br />custom box</h1>
               <p>
-                Once we get to know you, we will show you the box we’ve crafted.
-                This is your chance to approve it before we ship it to your
-                house.
+                Once we get to know you, we will show you the box we’ve
+                crafted. This is your chance to approve it before we ship
+                it to your house.
               </p>
             </div>
           </div>
@@ -174,21 +180,24 @@
       <div class="row">
         <div class="container">
           <div class="row">
-            <div class="col-sm">
+            <div class="col-sm text-right">
               <img
                 src="../assets/work3.png"
-                style="width: 511px"
+                class="img-responsive"
+                class="w-75"
                 alt="work 2"
               />
             </div>
             <div class="col-sm">
-              <h1 class="mt-5">Try it on at home</h1>
+              <h1 class="mt-3 font-400">Try it on at home</h1>
               <p>
                 Your box will arrive within 3-5 days (usually sooner) and you
-                get the joy to unbox your Upbox. Try it all on and send back
-                whatever you’re not in love with.
+                get the joy to unbox your Upbox. Try it all on and 
+                send back whatever you’re not in love with.
               </p>
             </div>
+            <div class="col-sm"></div>
+
           </div>
         </div>
       </div>
@@ -198,12 +207,7 @@
       <div class="row">
         <div class="col-sm text-center mt-4">
           <button
-            class="btn btn-outline-secondary"
-            style="
-              border-radius: 23px;
-              padding: 13px;
-              border: 2px solid rgb(197, 82, 97);
-            "
+            class="btn btn-outline-secondary btn-try"
             type="try it yourself"
           >
             TRY IT YOURSELF >
@@ -219,22 +223,43 @@
         <div class="container">
           <div class="row">
             <div class="col align-self-start">
-              <img src="../assets/logo.svg" alt="upbox" />
+              <img
+                src="../assets/logo.svg"
+                alt="upbox"
+                class="img-responsive"
+              />
             </div>
             <div class="col align-self-center"></div>
             <div class="col align-self-end">
               <section class="mb-4">
-                <!-- Facebook -->
-                <img
-                  src="../assets/facebook.svg"
-                  class="mr-3"
-                  alt="instagram"
-                />
-                <!-- Twitter -->
-                <img src="../assets/twitter.svg" class="mr-3" alt="instagram" />
-
-                <!-- Instagram -->
-                <img src="../assets/instagram.svg" alt="instagram" />
+                <div class="d-flex flex-row-reverse bd-highlight">
+                  <div class="p-2 bd-highlight">
+                    <!-- Facebook -->
+                    <img
+                      src="../assets/facebook.svg"
+                      class="img-responsive"
+                      class="mr-3"
+                      alt="instagram"
+                    />
+                  </div>
+                  <div class="p-2 bd-highlight">
+                    <!-- Twitter -->
+                    <img
+                      src="../assets/twitter.svg"
+                      class="mr-3"
+                      alt="instagram"
+                      class="img-responsive"
+                    />
+                  </div>
+                  <div class="p-2 bd-highlight">
+                    <!-- Instagram -->
+                    <img
+                      src="../assets/instagram.svg"
+                      alt="instagram"
+                      class="img-responsive"
+                    />
+                  </div>
+                </div>
               </section>
             </div>
           </div>

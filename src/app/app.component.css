@@ -1,0 +1,20 @@
+.work2 {
+  width: 200px;
+  position: absolute;
+  bottom: 9em;
+  left: 16rem;
+}
+.btn-try {
+  border-radius: 23px;
+  padding: 13px;
+  border: 2px solid rgb(197, 82, 97);
+}
+.custom-text {
+  position: relative;
+  left: 28em;
+  bottom: 12em;
+  max-width: 500px;
+}
+.font-400 {
+  font-weight: 400;
+}
